@@ -1,0 +1,68 @@
+header h1 { /*in header*/
+    color: rgb(255, 249, 168);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+.homeLink { /*in header*/
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(0, 0, 36);
+}
+
+.games .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.games h1 {
+    text-align: center;
+    color: rgb(255, 249, 168);
+    font-family: monospace;
+}
+
+.games .links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.gameLink a {
+    color: rgb(255, 249, 168);
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+}
+
+#underConst {
+    max-width: 200px;
+}
+
+footer { /*in footer*/
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    text-align: center;
+}
+
+.copyright { /*in footer*/
+    color:  rgb(255, 249, 168);
+}
+
+.link { /*in footer*/
+    color:  rgb(255, 249, 168);
+    margin: 10px;
+}
+

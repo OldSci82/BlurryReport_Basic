@@ -1,0 +1,54 @@
+header h1 { /*in header*/
+    color: rgb(255, 249, 168);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(0, 0, 36);
+}
+
+.homeLink { /*in header*/
+    text-decoration: none;
+}
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest .content h1 {
+    color: rgb(255, 249, 168);
+    font-family: monospace;
+}
+
+.latest .content img {
+    max-width: 600px;
+    min-width: 200px;
+}
+
+footer { /*in footer*/
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    text-align: center;
+}
+
+.copyright { /*in footer*/
+    color:  rgb(255, 249, 168);
+}
+
+.link { /*in footer*/
+    color:  rgb(255, 249, 168);
+    margin: 10px;
+}
